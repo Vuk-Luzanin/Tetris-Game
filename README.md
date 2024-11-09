@@ -12,13 +12,27 @@ A simple **Tetris** game built with **HTML**, **JavaScript**, and **CSS**. The g
 ## How to Run
 
 1. Clone or download the repository. 📥
-2. Open the `index.html` file in a web browser. 🌐
+    ```bash
+    git clone PROJECT_URL
+
+2. Navigate to project and open the `index.html` file in a web browser (for MacOS). 
+    ```bash
+    open index.html 
+
+2. For Windows. 
+    ```bash
+    start index.html 
+
 3. Start playing and enjoy! 🎉
 
 ## Technologies Used
 
 This game is built using the following technologies:
 
-- **HTML** for the game structure. 📝
-- **CSS** for styling and visuals. 🎨
-- **JavaScript** for game logic and interactivity. 💻
+- **HTML** for the game structure. 
+- **CSS** for styling and visuals. 
+- **JavaScript** for game logic and interactivity. 
+
+## 🖼️ Screenshot
+
+![App Screenshot](images/screenshotForGITHUB.png)

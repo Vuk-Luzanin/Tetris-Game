@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="scriptPocetna.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris instructions</title>
+</head>
+<body id="startPage">
+    <h1 id="Uputstvo">Početna podešavanja</h1>
+
+    <div id="whichFigures">
+        I blok : <input type="checkbox" id="a0" checked> 
+        L blok : <input type="checkbox" id="a1" checked> 
+        J blok : <input type="checkbox" id="a2" checked> 
+        O blok : <input type="checkbox" id="a3" checked>
+        S blok : <input type="checkbox" id="a4" checked> 
+        T blok : <input type="checkbox" id="a5" checked>  
+        Z blok : <input type="checkbox" id="a6" checked> 
+        <hr>
+    </div>
+
+    <div id="prikazFigura"></div>
+
+    <h1 id="Uputstvo">Izaberite mod igre</h1>
+
+    <div class="radio-group">
+        <label>
+            LAKO  <input type="radio" name="gameMode" id="lako" value="1"> 
+        </label>
+        <label>
+            SREDNJE <input type="radio" name="gameMode" id="srednje" value="2">  
+        </label>
+        <label>
+            TEŠKO <input type="radio" name="gameMode" id="tesko" value="3">  
+        </label>
+    </div>
+
+    <div>
+        <button id="startGame">Započni igru</button>
+    </div>
+
+    <div class="container">
+        <h1>Uputstvo za igru "Tetris"</h1>
+        <h1>Pravila igre</h1>
+        <p>U igri "Tetris" igrač koristi tastere da pomera blokove koji padaju sa vrha prostora za igru sa ciljem da ih složi na način da između blokova ostane što manje praznog prostora. Kada se jedan ceo red popuni, ceo taj red nestaje, a svi kvadratići iznad se spuštaju za jedan nivo i igrač time ostvaruje poene. Kako tok igre napreduje, blokovi padaju sve brže te igrač ima sve manje vremena za razmišljanje i slaganje. Kada se blokovi nagomilaju do vrha polja za igru, bez mogućnosti da se novi blok pojavi, igra je gotova.</p>
+
+        <h1>Kontrole igre</h1>
+        <ul>
+            <li><strong>Strelica levo</strong>: Pomeranje bloka u levo</li>
+            <li><strong>Strelica desno</strong>: Pomeranje bloka u desno</li>
+            <li><strong>Strelica dole</strong>: Brže spuštanje bloka</li>
+            <li><strong>Strelica gore</strong>: Rotiranje bloka</li>
+        </ul>
+
+        <h1>Stranica sa igrom</h1>
+        <p>Stranica sa igrom prikazuje tablu polja po kojoj padaju blokovi. U svakom trenutku igre pada jedan blok na koji korisnik može da utiče tako što ga pomera levo-desno, brže spušta na dno ili rotira. Kada blok padne na dno table ili na drugi blok, on se zaustavlja, a na vrhu table se generiše nov blok. U svakom trenutku na stranici je prikazan rezultat, nivo igre i sledeća vrsta bloka koja će da se generiše. Kada se igra završi, od korisnika se traži upis imena pod kojim želi da čuva svoj rezultat, a potom se prelazi na stranicu sa rezultatima.</p>
+
+        <h1>Stranica sa rezultatima</h1>
+        <p>Na stranici sa rezultatima prikazuju se imena igrača i ostvareni rezultati za pet najbolje odigranih partija. Dodatno, prikazuje se i ime igrača i postignut rezultat iz prethodno odigrane partije. Sa stranice sa rezultatima, korisnik ponovo može da pređe na početnu stranicu.</p>
+        
+        <h1>Specifikacije za vrstu blokova</h1>
+        <p>Vrste blokova koje igra podržava su:</p>
+        <ul>
+            <li>I blok</li>
+            <li>J blok</li>
+            <li>L blok</li>
+            <li>O blok</li>
+            <li>S blok</li>
+            <li>T blok</li>
+            <li>Z blok</li>
+        </ul>
+    </div>
+   
+</body>
+</html>
