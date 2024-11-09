@@ -1,4 +1,4 @@
-# Tetris Game in Browser
+# Tetris Game
 
 A simple **Tetris** game built with **HTML**, **JavaScript**, and **CSS**. The game features block movement, line clearing, and score tracking. 
 
